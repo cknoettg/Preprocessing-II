@@ -242,12 +242,16 @@ header nav .links {
   margin-bottom: 30px;
 }
 .home .content-pick .destination .btn {
-  height: 100;
-  width: 5;
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  height: 50px;
+  width: 200px;
   color: white;
   background-color: teal;
   text-align: center;
-  padding: 10px;
+  font-size: 20px;
+  padding-top: 10px;
   border: 1px teal;
   border-radius: 8px;
 }
