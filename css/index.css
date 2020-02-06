@@ -184,6 +184,19 @@ header nav .links {
   width: 40%;
   font-size: 15px;
 }
+@media (max-width: 500px) {
+  header nav .links {
+    justify-content: space-between;
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  header nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;

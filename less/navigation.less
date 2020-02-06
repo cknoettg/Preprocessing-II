@@ -1,4 +1,5 @@
 // Navigation Styles here
+// @media @mobile
 header {
     border-bottom: 2px dashed silver;
 
@@ -14,6 +15,17 @@ header {
             align-items: center;
             width: 40%;
             font-size: 15px;
+
+            @media @mobile {
+                justify-content: space-between;
+                width: 80%;
+            }
+        }
+
+        @media @mobile {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
     }
