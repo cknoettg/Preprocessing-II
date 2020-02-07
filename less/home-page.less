@@ -8,6 +8,8 @@
 
 .intro {
 
+  border-bottom: 2px dashed silver;
+
   @media @mobile {
     border-bottom: 2px dashed silver;
   }
@@ -78,6 +80,11 @@
     img {
       border-radius: 10px;
     }
+
+    @media @mobile {
+      width: 95%;
+      margin: 0 auto;
+    }
   }
 
   .content-pick {
@@ -97,6 +104,7 @@
         .btns(50px,200px,8px);
 
         @media @mobile {
+          width: 75%;
           .btns(50px,400px,8px);
         }
       }
